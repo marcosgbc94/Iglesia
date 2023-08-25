@@ -1,0 +1,6 @@
+{
+    "physicalHymnals": [
+        {"id": 1, "name": "Himnario y Coros"},
+        {"id": 2, "name": "Otro himnario"}
+    ]
+}

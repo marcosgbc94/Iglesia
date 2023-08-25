@@ -1,0 +1,6 @@
+{
+    "typesSongs" : [
+        {"id": 1, "name": "coro"},
+        {"id": 2, "name": "himno"}
+    ]
+}
