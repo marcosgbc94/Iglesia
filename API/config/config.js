@@ -1,5 +1,5 @@
 module.exports = Object.freeze({
-    PORT: 3000,
+    PORT: 3001,
     DATA_FILES: [
         {id: 1, active: true, path: 'physicalhymnals', data: "physicalHymnals.json", type: "get"},
         {id: 2, active: true, path: 'typeshymnals', data: "typesHymnals.json", type: "get"},
