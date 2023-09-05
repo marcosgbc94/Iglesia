@@ -7,7 +7,9 @@ export default function TabButton({ active, projecting, title, subtitle, classNa
             <span className={`text-left text-xs ${classNameSubTitle}`}>{subtitle} {projecting ? '· Proyectando' : null}</span>
         </button>
         <div className="h-full pt-2 pe-2 pb-2 ps-1 flex items-center justify-center">
-            <button className={`h-8 w-8 rounded-full transition-colors ${classNameCloseButton}`}>x</button>
+            <button title="Cerrar pestaña" aria-label="Cerrar pestaña" className={`h-8 w-8 rounded-full flex items-center justify-center transition-colors ${classNameCloseButton}`}>
+                <i className="opacity-75 fa fa-close"></i>
+            </button>
         </div>
     </div>);
 }
